@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.container-all {
+    background: linear-gradient(to bottom, #2f79f2, #12a9ef);
+    height: 100vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    text-align: center;
+}
+
+.container-QandA {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.container-Question {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2)
+}
+
+.container-Answer {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-Answer-List {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.main-title {
+    background-color: rgb(226, 137, 223);
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #686262;
+}
+
+.main-title-font {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  font-family: 'Fredoka One', sans-serif;
+  text-shadow: 1px 1px 1px #000000;
+
+}
+
+.container-Question-font {
+  font-size: 25px;
+  color: black;
+  font-family: 'Fredoka One', sans-serif;
+}
+
+.other-Text-Font {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Fredoka One', sans-serif;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.other-Text-Warning {
+  font-size: 20px;
+  color: rgb(235, 29, 29);
+  font-family: 'Fredoka One', sans-serif;
+}
+
+.preguntados-img{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2)
+}
+
+.preguntados-img-last{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2)
+}

@@ -1,0 +1,51 @@
+.btn-Answer-List:active{
+    background-color: rgb(217, 223, 227);
+    font-size: 20px;
+    color: black;
+    font-family: 'Fredoka One', sans-serif;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-Answer-List{
+    background-color: aliceblue;
+    font-size: 20px;
+    color: black;
+    font-family: 'Fredoka One', sans-serif;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-Next {
+    background-color: aliceblue;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Fredoka One', sans-serif;
+    width: 60%;
+}
+
+.btn-Next:active {
+    background-color: rgb(217, 223, 227);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Fredoka One', sans-serif;
+    width: 60%;
+}
+
+.btn-Difficulty {
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Fredoka One', sans-serif;
+}
+
+.btn-Difficulty:active {
+    background-color: rgb(217, 223, 227);
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Fredoka One', sans-serif;
+}
