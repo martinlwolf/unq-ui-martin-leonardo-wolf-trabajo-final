@@ -7,6 +7,10 @@ export const getQuestions = (diff) => {
 
 }
 
+export const getDifficulty = () => {
+    return axios.get('/api/difficulty')
+}
+
 export const postAnswer = (questionId, option) => {
     const res = axios.post('/api/answer', {questionId, option}).then((response) => {
         return response
