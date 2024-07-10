@@ -9,8 +9,8 @@ const DifficultyContainer = ({isSelectedDiff, difficulty}) => {
     useEffect(() => {
         getDifficulty().then((data) => {
             setDifficulties(data.data)
-        }).catch((error) => {
-            console.log(error)
+        }).catch((err) => {
+            console.log(err)
         })
     }, [])
 
