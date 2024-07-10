@@ -4,7 +4,6 @@ import { getDifficulty } from '../service/Api'
 
 const DifficultyContainer = ({isSelectedDiff, difficulty}) => {
 
-    const [selectedDifficulty, setSelectedDifficulty] = useState()
     const [difficulties, setDifficulties] = useState([])
 
     useEffect(() => {
@@ -20,9 +19,6 @@ const DifficultyContainer = ({isSelectedDiff, difficulty}) => {
         isSelectedDiff(true)
         difficulty(diff)
     }
-
-    console.log(difficulties)
-
 
     return (
         <div className='container-Answer-List'>
